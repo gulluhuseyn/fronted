@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF=8">
+    <style>
+        table,th,td{
+            border: 1 px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <table border ="1" width="900" height="300">
+        <thead>
+            <tr>
+                <th colspan="6" bgcolor="7469B6">Şagirdlər</th>
+            </tr>
+            <tr bgcolor="AD88C6">
+                <th rowspan="2" >NO/</th>
+                <th rowspan="2" >Foto</th>
+                <th rowspan="2" >Ad <br> Soyad <br> </th>
+                <th colspan="2" >Əlaqə</th>
+            </tr>
+            <tr bgcolor="AD88C6">
+                <th >Tel1</th>
+                <th >Tel2</th>
+            </tr>
+        </thead> 
+        <tbody align="center" bgcolor="C2D9FF">
+            <tr>
+                <td>1</td>
+                <td><img src="sagird1.jpg" alt="" width="50" height="60"></td>
+                <td>Nahibə <br> Əsgərova  <br></td>
+                <td>07015656456</td>
+                <td>07015656456</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><img src="sagird2.jpg" alt="" width="50" height="60"></td>
+                <td>Güllü <br> Hüseynova <br></td>
+                <td>07015656456</td>
+                <td>07015656456</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
