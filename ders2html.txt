@@ -4,142 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        span.different{
+            color:white;
+            text-shadow: 0cap;}
+        @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+        .different{
+        font-family: "Madimi One", sans-serif;}
+    </style>
 </head>
-<body style="background-color: rgba(1, 15, 36, 0.575);">
-    <table border="1" style="border-color: rgba(1, 15, 36, 0.575) ;" width="600" height="600" align="center">
-        <thead align="center">
-            <tr bgcolor="74E291">
-                <th colspan="3">Müraciət et</th>
-            </tr>
-            <tr>
-                <th bgcolor="74E291">Şəkil yükləyin</th>
-                <td bgcolor="C2D9FF"colspan="2">
-                    <form>
-                        <label for = "file"></label>
-                        <input type="file"  id = "file" name="fayl">
-                    </form>
-                </td>
-            </tr>
-            <tr>
-                <th bgcolor="74E291">Ad</th>
-                <td bgcolor="C2D9FF" colspan="2">
-                    <form>
-                        <label for="firstname"></label>
-                        <input type="text" id = "firstname" name="Ad" placeholder="Ad">
-                    </form>
-                </td>
-            </tr>
-            <tr>
-                <th bgcolor="74E291">Soyad</th>
-                <td bgcolor="C2D9FF" colspan="2">
-                    <form>
-                        <label for = "surname"></label>
-                        <input type="text" id="surname" name="Soyad" placeholder="Soyad">                     
-                    </form>
-                </td>
-            </tr>
-            <tr>
-                <th bgcolor="74E291">Doğum tarixi</th>
-                <td bgcolor="C2D9FF" colspan="2">
-                    <form>
-                        <label for="Tarix"></label>
-                        <input type="date" id="Tarix" name="dogumtarixi">
-                    </form>
-                </td>
-            </tr>
-            <tr>
-                <th bgcolor="74E291">Cinsiyyət</th>
-                <th bgcolor="C2D9FF" colspan="2">
-                    <form>
-                        <label for="gender"></label>
-                        kişi<input type="radio" value="male" name="gender">
-                        qadın<input type="radio" value="female" name="gender">                       
-                    </form>
-                </th>
-            </tr>
-            <tr>
-                <th bgcolor="74E291">Email</th>
-                <td bgcolor="C2D9FF" colspan="2">
-                    <form>
-                        <label for="mail"></label>
-                        <input type="email" name="mail" placeholder="Emailinizi yazın">
-                    </form>
-                </td>
-            </tr>
-            <tr>
-                <th rowspan="2" bgcolor="74E291">Əlaqə</th>
-                <th bgcolor="C9D7DD">tel:</th>
-                <td bgcolor="C2D9FF">
-                    <form>
-                        <label for="phone"></label>
-                        <input type="tel" name="phone" placeholder="phone">
-                    </form>
-                </td>
-            </tr>
-            <tr>
-                <th bgcolor="C9D7DD">tel:</th>
-                <td bgcolor="C2D9FF">
-                    <form>
-                        <label for="phone"></label>
-                        <input type="tel" name="phone" placeholder="phone">
-                    </form>
-                </td>
-            </tr>
-            <tr>
-                <th bgcolor="74E291">Təcrübələriniz</th>
-                <td bgcolor="C2D9FF" colspan="2">
-                    <form>
-                        <label for="tecrubeler"></label>
-                        <textarea id="text" name="tecrubeler" placeholder="Təcrübələrinizi qeyd edin..."></textarea>
-                    </form>
-                </td>
-            </tr>
-            <tr>
-                <th bgcolor="74E291">Xarici diller</th>
-                <th bgcolor="C2D9FF" colspan="2">
-                    <form>
-                        <label for="diller"></label>
-                        İngilis dili<input type="checkbox" id="dil" name="diller">
-                        Türk dili<input type="checkbox" id="dil" name="diller">
-                        Rus dili<input type="checkbox" id="dil" name="diller">
-                    </form>
-                </th>
-            </tr>
-            <tr>
-                <th bgcolor="74E291">Əsgərlik</th>
-                <td bgcolor="C2D9FF" colspan="2">
-                    <form>
-                        <select>
-                            <option>Xidmətdə olub</option>
-                            <option>Xidmətdə olmayıb</option>
-                        </select>
-                    </form>
-                </td>
-            </tr>
-            <tr>
-                <th bgcolor="74E291">Təhsil</th>
-                <td bgcolor="C2D9FF" colspan="2">
-                    <form>
-                        <select>
-                            <option>Orta təhsil</option>
-                            <option>Ali təhsil</option>
-                        </select>
-                    </form>
-                </td>
-            </tr>
-            <tr>
-                <th bgcolor="74E291" colspan="3">
-                    <form>
-                        <input type="submit" value="Təsdiq et">
-                    </form>
-                </th>
-            </tr>
-        </thead>
-    </table>
-    <hr color="74E291">
-    <hr color="74E291">
-    <h1 align="center">Bizim haqqımızda</h1>
-    <iframe align="middle" width="560" height="315" src="https://www.youtube.com/embed/nMgD_X0Cgg8?si=-_8RWY3y0DuNKD2V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-    </iframe>
+<body align= "center" bgcolor="teal">
+    <h1 >Leonardo da Vinci</h1>
+    <img src="leonardo.jpg" alt="" width="" height="">
+    <p align="center"><span class="different" >Leonardo Di Ser Piero Da Vinci</span>
+    Rönesans döneminde yaşamış İtalyan hezarfen,döneminin önemli bir filozofu,astronomu,
+    mimarı,mühendisi,mucidi,matematikçisi,anatomisti,müzisyeni,heykəltəraşı,botanisti,jeoloğu,
+    kartografı,yazarı ve ressamıdır.En tanınmış yapıtları <span class="different">Vitruvius Adamı</span>
+    (1490-1492)<span class="different">Mona Lisa</span>(1503-1507) ve<span class="different">Son Akşam Yemeği</span>
+    'dir(1495-1497).Rönesans sanatını doruğuna ulaştırmış,yalnız sanat yapısına değil,
+    çeşitli alanlardaki araştırmaları ve buluşlarıyla da tanınan gelmiş geçmiş en büyük 
+    sanatçılardan ve dehalardan biri kabul edilmektedir.
+    </p>
+    <img src="sonakşamyemeği.png" alt="" width="" height="">
+    <h1>Son Akşam Yemeği</h1>
+    <span class="different">Son Akşam Yemeği ya da son yemek</span>(Ingilizce:The Last Supper),Hristian
+    inanışına göre İsa'nın çarmıha gerilmesinden 
+    önceki akşam havarileri ile yediği son yemek.Bu yemek sırasında yaptığı konuşmanın uzunca
+    anlatıldığı Yuhanna Kitabı'nda İsa Mesih onlara kendisi aralarından ayrıldıktan sonra
+    gelecek olan Paraklit'le teselli bulmalarını söyler. Son Akşam yemeğinde İsa ve havarileri
+    Kutsal Kase'den Şarap içiyorlar ve ekmek yiyorlardı.
+    </p>
 </body>
 </html>
