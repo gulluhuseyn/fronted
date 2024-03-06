@@ -4,35 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        span.different{
-            color:white;
-            text-shadow: 0cap;}
-        @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
-        .different{
-        font-family: "Madimi One", sans-serif;}
-    </style>
+    <link rel="stylesheet" href="ders5.css">
 </head>
-<body align= "center" bgcolor="teal">
-    <h1 >Leonardo da Vinci</h1>
-    <img src="leonardo.jpg" alt="" width="" height="">
-    <p align="center"><span class="different" >Leonardo Di Ser Piero Da Vinci</span>
-    Rönesans döneminde yaşamış İtalyan hezarfen,döneminin önemli bir filozofu,astronomu,
-    mimarı,mühendisi,mucidi,matematikçisi,anatomisti,müzisyeni,heykəltəraşı,botanisti,jeoloğu,
-    kartografı,yazarı ve ressamıdır.En tanınmış yapıtları <span class="different">Vitruvius Adamı</span>
-    (1490-1492)<span class="different">Mona Lisa</span>(1503-1507) ve<span class="different">Son Akşam Yemeği</span>
-    'dir(1495-1497).Rönesans sanatını doruğuna ulaştırmış,yalnız sanat yapısına değil,
-    çeşitli alanlardaki araştırmaları ve buluşlarıyla da tanınan gelmiş geçmiş en büyük 
-    sanatçılardan ve dehalardan biri kabul edilmektedir.
-    </p>
-    <img src="sonakşamyemeği.png" alt="" width="" height="">
-    <h1>Son Akşam Yemeği</h1>
-    <span class="different">Son Akşam Yemeği ya da son yemek</span>(Ingilizce:The Last Supper),Hristian
-    inanışına göre İsa'nın çarmıha gerilmesinden 
-    önceki akşam havarileri ile yediği son yemek.Bu yemek sırasında yaptığı konuşmanın uzunca
-    anlatıldığı Yuhanna Kitabı'nda İsa Mesih onlara kendisi aralarından ayrıldıktan sonra
-    gelecek olan Paraklit'le teselli bulmalarını söyler. Son Akşam yemeğinde İsa ve havarileri
-    Kutsal Kase'den Şarap içiyorlar ve ekmek yiyorlardı.
-    </p>
+<body>
+    <div  class="box" >
+        <h1>İlanlar(Lat.Serpentes)</h1>
+        <h2>-Sürünənlər sinfinin pulcuqlular <br>dəstəsinə aid yarımdəstə.</h2>
+        <h3>İlanlar elastik çənə quruluşuna sahibdir.Bununla da böyük canlıları uda bilirlər.İlanların çoxu zəhərsizdir.
+            Zəhərsiz ilan növləri ovlarına dolanaraq onları boğur.İlanların zəhərli növləri isə zəhərdən ovlanmaq,yaxud 
+            özlərini qorumaq məqsədilə istifadə edirlər.İlanlar həşərat,qurbağa,quş,balıq,kərtənkələ,siçan,yumurta və s ilə
+            qidalanır.İlanları öyrənən elm <span>serpantologiya</span> adlanır.
+        </h3>
+        
+        <button href="https://az.wikipedia.org/wiki/Serpantologiya">Daxil ol</button>
+    </div>
+    <div class="deri">
+        <p>
+            <h1>Dəri</h1>
+            İlan dərisi pulcuqlarla örtülüdür, hamar və quru quruluşa malikdir. 
+            İlanların qarın və bel pulcuqlarının quruluşu fərqlidir. Dəri rəngləri çox müxtəlidir. 
+            Bəziləri bir rəngə, bəziləri isə 3–4 rəngə sahibdir. Rəngli ilanlar, əsasən, zəhərlidir. 
+            Ancaq zəhərli olmayan rəngli ilanlar da var. Rəngli dəri təhlükəni bildirir və düşmənləri qorxutmaq üçün 
+            istifadə olunur, amma bu o demək deyil ki, birrəngli ilanların dəriləri qorunmaq üçün əlverişsizdir. 
+            Birrəngli ilanların rəngi daha çox bozumtul, qəhvəyi və qara rəngli olur ki, 
+            bu rənglər də torpaqda, qumda, daşda gizlənmək üçün (kamuflyaj) ideal rənglərdir.<br>Dəri dəyişmə<br>
+            Bir çox canlı kimi ilanlar da dəri dəyişdirir. Köhnə dəri ağız tərəfdən cırır, ilan daş, ağac kimi 
+            obyektlərə sürtünərək dərisini çıxardır. Bu prosesin bir neçə funksiyası var. 
+            İlk növbədə ilan köhnə dəridən azad olur, həm də parazitlərdən təmizlənir.
+        </p>
+        <img src="snake1.jpg" alt="" >
+        <p>
+            <h1>Zəhər</h1>
+            Zəhər başın arxasındakı zəhər vəzilərində toplanır və dişlər vasitəsilə ova, yaxud düşmənə yeridilir. 
+            Tüpürən kobra kimi bir neçə ilan təhlükə hiss etdikdə düşmənin gözünə zəhər tüpürür. 
+            Bəzi heyvanlarda ilan zəhərinə qarşı təbii peyvənd vardır və zəhər onlara təsir etmir.
+        </p>
+        <img src="snake.jpg" alt="">
+    </div>
+    
 </body>
 </html>
