@@ -4,43 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="ders5.css">
+    <link rel="stylesheet" href="ders7.css">
 </head>
+
 <body>
-    <div  class="box" >
-        <h1>İlanlar(Lat.Serpentes)</h1>
-        <h2>-Sürünənlər sinfinin pulcuqlular <br>dəstəsinə aid yarımdəstə.</h2>
-        <h3>İlanlar elastik çənə quruluşuna sahibdir.Bununla da böyük canlıları uda bilirlər.İlanların çoxu zəhərsizdir.
-            Zəhərsiz ilan növləri ovlarına dolanaraq onları boğur.İlanların zəhərli növləri isə zəhərdən ovlanmaq,yaxud 
-            özlərini qorumaq məqsədilə istifadə edirlər.İlanlar həşərat,qurbağa,quş,balıq,kərtənkələ,siçan,yumurta və s ilə
-            qidalanır.İlanları öyrənən elm <span>serpantologiya</span> adlanır.
-        </h3>
-        
-        <button href="https://az.wikipedia.org/wiki/Serpantologiya">Daxil ol</button>
-    </div>
-    <div class="deri">
-        <p>
-            <h1>Dəri</h1>
-            İlan dərisi pulcuqlarla örtülüdür, hamar və quru quruluşa malikdir. 
-            İlanların qarın və bel pulcuqlarının quruluşu fərqlidir. Dəri rəngləri çox müxtəlidir. 
-            Bəziləri bir rəngə, bəziləri isə 3–4 rəngə sahibdir. Rəngli ilanlar, əsasən, zəhərlidir. 
-            Ancaq zəhərli olmayan rəngli ilanlar da var. Rəngli dəri təhlükəni bildirir və düşmənləri qorxutmaq üçün 
-            istifadə olunur, amma bu o demək deyil ki, birrəngli ilanların dəriləri qorunmaq üçün əlverişsizdir. 
-            Birrəngli ilanların rəngi daha çox bozumtul, qəhvəyi və qara rəngli olur ki, 
-            bu rənglər də torpaqda, qumda, daşda gizlənmək üçün (kamuflyaj) ideal rənglərdir.<br>Dəri dəyişmə<br>
-            Bir çox canlı kimi ilanlar da dəri dəyişdirir. Köhnə dəri ağız tərəfdən cırır, ilan daş, ağac kimi 
-            obyektlərə sürtünərək dərisini çıxardır. Bu prosesin bir neçə funksiyası var. 
-            İlk növbədə ilan köhnə dəridən azad olur, həm də parazitlərdən təmizlənir.
-        </p>
-        <img src="snake1.jpg" alt="" >
-        <p>
-            <h1>Zəhər</h1>
-            Zəhər başın arxasındakı zəhər vəzilərində toplanır və dişlər vasitəsilə ova, yaxud düşmənə yeridilir. 
-            Tüpürən kobra kimi bir neçə ilan təhlükə hiss etdikdə düşmənin gözünə zəhər tüpürür. 
-            Bəzi heyvanlarda ilan zəhərinə qarşı təbii peyvənd vardır və zəhər onlara təsir etmir.
-        </p>
-        <img src="snake.jpg" alt="">
-    </div>
-    
+    <header>
+        <div class="novbar">
+            <div class="nov_logo">
+                <img src="galatasaray.png" alt="">
+            </div>
+            <div class="nov_link">
+                <ul>
+                    <li><a href="">Esas</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Haqqimizda</a></li>
+                    <li><a href="">Elaqe</a></li>
+                    <li><a href="">Tarixce</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <h1>Galatasaray</h1>
+    </section>
+    <div class="products">
+        <h1>Idman mallari</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptate sit enim hic quia deleniti
+            cupiditate commodi!
+            Illo officia, ipsa maiores nulla facere vitae itaque, fuga porro earum consectetur atque.</p>
+        <div class="mehsullar">
+            <div class="product">
+                <img src="geyim1.jpg" alt="">
+                <div class="sepete ekle">
+                    <h1>Puma</h1>
+                    <div class="kart">
+                        <h6>4100$</h6>
+                        <button><a href="">sepete ekle</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="geyim2.jpg" alt="">
+                <div class="sepeteekle">
+                    <h1>Puma</h1>
+                    <div class="kart">
+                        <h6>4100$</h6>
+                        <button><a href="">sepete ekle</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="geyim3.jpg" alt="">
+                <div class="sepeteekle">
+                    <h1>Puma</h1>
+                    <div class="kart">
+                        <h6>4100$</h6>
+                        <button><a href="">sepete ekle</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="geyim4.jpg" alt="">
+                <div class="sepeteekle">
+                    <h1>Puma</h1>
+                    <div class="kart">
+                        <h6>4100$</h6>
+                        <button><a href="">sepete ekle</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="geyim5.jpg" alt="">
+                <div class="sepeteekle">
+                    <h1>Puma</h1>
+                    <div class="kart">
+                        <h6>4100$</h6>
+                        <button><a href="">sepete ekle</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="geyim6.jpg" alt="">
+                <div class="sepeteekle">
+                    <h1>Puma</h1>
+                    <div class="kart">
+                        <h6>4100$</h6>
+                        <button><a href="">sepete ekle</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="geyim7.jpg" alt="">
+                <div class="sepeteekle">
+                    <h1>Puma</h1>
+                    <div class="kart">
+                        <h6>4100$</h6>
+                        <button><a href="">sepete ekle</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="geyim8.jpg" alt="">
+                <div class="sepeteekle">
+                    <h1>Puma</h1>
+                    <div class="kart">
+                        <h6>4100$</h6>
+                        <button><a href="">sepete ekle</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="geyim9.jpg" alt="">
+                <div class="sepeteekle">
+                    <h1>Puma</h1>
+                    <div class="kart">
+                        <h6>4100$</h6>
+                        <button><a href="">sepete ekle</a></button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
 </body>
+
 </html>
