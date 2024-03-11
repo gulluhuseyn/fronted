@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -5,90 +6,181 @@
     text-decoration: none;
     list-style: none;
 }
-header{
-    background-color: rgb(82, 03,04);
+body{
+    margin: 35px;
 }
-.container{
-    width: 1440px;
-    max-width: 90%;
-    margin: 0 auto;
+header{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
 }
 .novbar{
+    background-color: rgb(137, 115, 88);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 20px;
+    padding: 20px 15px; 
 }
-.novbar .nov_logo img{
-    width: 70px;
-    height: 70px;
+.nov_logo {
     display: flex;
-    align-self: center;
+}
+.nov_logo img{
+    width: 100%; 
+    height: 100px;
+    position: relative;
+}
+
+.nov_logo h2{
+    font-family: 'Oleo Script';
+    color: rgb(224, 203, 171);
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
 }
 .nov_link ul{
     display: flex;
-    gap: 20px;
-    align-items: center ;
-    justify-content: flex-end;
+    gap: 40px;
+    align-items: center;
+    font-family: 'Dancing Script';
 }
-button{
-    width: 70px;
+a{
+    color: rgb(224, 203, 171);
+    text-shadow: 2px 2px 5px burlywood;
+    font-size: 30px;
 }
-section h1{
-    text-align: center;
-    text-decoration: double;
-    margin: 10px 0px 0px;
-    color: rgb(82, 03,04);
-    text-shadow: 2px 2px 0px 0px black;
+.nov_profil img{
+    width: 100%; 
+    height: 100px;
 }
-section {
+section{
     padding: 100px;
-    background-image: url(./galatasarayyy.jpg);
+    background: linear-gradient(61deg, rgba(0, 0, 0, 0.481) 0%, rgba(1, 1, 1, 0.6699929971988796) 100%),url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     width: 100%;
-    height: 100vh;    
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    background-color: red;
+}
+.page {
+    
+    font-family: 'Oleo Script';
+    color: rgb(224, 203, 171);
+    text-align: center;
+}
+.page h1{
+    font-size: 70px;
+    text-transform: capitalize;
+}
+.page h3{
+    font-size: 20px;
+}
+.products {
+    font-family: 'Oleo Script';
+    text-align: center;
+    margin-top: 20px;
 }
 .products h1{
-    text-align: center;
-    color: black;
-    margin: 10px 0px 0px;
-    text-shadow: 2px 2px 0px 0px red;
+    font-size: 70px;
+    text-shadow: 2px 2px 5px burlywood;
 }
-.products p{
-    text-align: center;
+.products h3{
+    font-size: 20px;
 }
 .mehsullar{
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    justify-content: space-between;
+    
 }
 .product{
     width: 23%;
-    background-color: wheat;
+    height: 380px;
+    border: 3px solid rgb(224, 203, 171);
     text-align: center;
-    margin-top: 20px;
-    border: 1px solid red;
+    border-radius: 10%;
+    margin-top: 30px;
+}
+.header_img{
+    position: relative;
+}
+.header_img i{
+    font-size: 20px;
+    border: 2px solid rgb(224, 203, 171);
+    border-radius: 50%;
+    background-color: rgb(137, 115, 88);
+    padding: 5px;
+    color: rgb(68, 66, 64);
+    position: absolute;
+    top: 20px;
+    right: 30px;
 }
 .product img{
     width: 100%;
-    height: 180px;
+    height: 250px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
     object-fit: cover;
 }
-.product h6{
-    text-align: start;
+.product a{
+    font-size: 25px;
 }
-.kart{
+.buy{
     display: flex;
-    align-items:center ;
+    align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 80px;
+    padding: 20px;
 }
-button{
-    background-color: red;
+.buy h1{
+    padding: 10px;
+}
+.buy h2{
+    font-family: "Poppins", sans-serif;
+}
+.buy button{
+    border: 1px solid rgb(224, 203, 171);
+    border-radius: 20%;
+    color: rgb(137, 115, 88);
+    background-color: rgb(68, 66, 64);
+    cursor: pointer;
+}
+button :hover{
+    color: rgb(68, 66, 64);
+    background-color: rgb(137, 115, 88);
+    border-radius: 20%;
+}
+.production{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(61deg, rgba(0, 0, 0, 0.481) 0%, rgba(1, 1, 1, 0.6699929971988796) 100%),url('https://images.unsplash.com/photo-1533779283484-8ad4940aa3a8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;   
+}
+.support{  
+    color: rgb(137, 115, 88);
+    text-align: center;
+    font-family: "Oleo Script", system-ui;
+    padding: 60px;
+}
+.support h1{
+    font-size: 50px;
+}
+.support h2{
+    font-size: 20px;
+}
+.about{
+    font-family: 'Oleo Script';
+    margin-top: 60px;
+    text-align: start;
+    display: flex;
+}
+.about h1{
+    font-size: 70px;
+}
+.metn_image img{
+    width: 600px;
+    height: 100vh;
 }

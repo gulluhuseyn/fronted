@@ -1,131 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="ders7.css">
+    <link rel="stylesheet" href="ders8.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <header>
         <div class="novbar">
+
             <div class="nov_logo">
-                <img src="galatasaray.png" alt="">
+                <a href="https://www.vecteezy.com/">
+                    <img src="https://static.vecteezy.com/system/resources/previews/021/772/754/non_2x/vintage-furniture-retro-chair-with-transparent-background-free-png.png" alt="">
+                </a>
+                <h2>My house</h2>
             </div>
             <div class="nov_link">
-                <ul>
-                    <li><a href="">Esas</a></li>
+                <ul class="shape">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
                     <li><a href="">Blog</a></li>
-                    <li><a href="">Haqqimizda</a></li>
-                    <li><a href="">Elaqe</a></li>
-                    <li><a href="">Tarixce</li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
                 </ul>
+            </div>
+            <div class="nov_profil">
+                <a
+                    href="https://www.iconarchive.com/show/fontawesome-icons-by-fa-team/FontAwesome-Circle-User-icon.html">
+                    <img src="https://icons.iconarchive.com/icons/fa-team/fontawesome/256/FontAwesome-Circle-User-icon.png"
+                        alt="">
+                </a>
             </div>
         </div>
     </header>
     <section>
-        <h1>Galatasaray</h1>
+        <div class="page">
+            <h1>Modern comfortable<br>home furniture</h1>
+            <h3>Furniture is one of the most important parts of our homes and makes our homes
+                beatiful and comfortable.On our furniture e-commerce site,you can find all kinds of furniture
+                products for your home.
+            </h3>
+        </div>
     </section>
     <div class="products">
-        <h1>Idman mallari</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptate sit enim hic quia deleniti
-            cupiditate commodi!
-            Illo officia, ipsa maiores nulla facere vitae itaque, fuga porro earum consectetur atque.</p>
-        <div class="mehsullar">
-            <div class="product">
-                <img src="geyim1.jpg" alt="">
-                <div class="sepete ekle">
-                    <h1>Puma</h1>
-                    <div class="kart">
-                        <h6>4100$</h6>
-                        <button><a href="">sepete ekle</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="product">
-                <img src="geyim2.jpg" alt="">
-                <div class="sepeteekle">
-                    <h1>Puma</h1>
-                    <div class="kart">
-                        <h6>4100$</h6>
-                        <button><a href="">sepete ekle</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="product">
-                <img src="geyim3.jpg" alt="">
-                <div class="sepeteekle">
-                    <h1>Puma</h1>
-                    <div class="kart">
-                        <h6>4100$</h6>
-                        <button><a href="">sepete ekle</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="product">
-                <img src="geyim4.jpg" alt="">
-                <div class="sepeteekle">
-                    <h1>Puma</h1>
-                    <div class="kart">
-                        <h6>4100$</h6>
-                        <button><a href="">sepete ekle</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="product">
-                <img src="geyim5.jpg" alt="">
-                <div class="sepeteekle">
-                    <h1>Puma</h1>
-                    <div class="kart">
-                        <h6>4100$</h6>
-                        <button><a href="">sepete ekle</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="product">
-                <img src="geyim6.jpg" alt="">
-                <div class="sepeteekle">
-                    <h1>Puma</h1>
-                    <div class="kart">
-                        <h6>4100$</h6>
-                        <button><a href="">sepete ekle</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="product">
-                <img src="geyim7.jpg" alt="">
-                <div class="sepeteekle">
-                    <h1>Puma</h1>
-                    <div class="kart">
-                        <h6>4100$</h6>
-                        <button><a href="">sepete ekle</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="product">
-                <img src="geyim8.jpg" alt="">
-                <div class="sepeteekle">
-                    <h1>Puma</h1>
-                    <div class="kart">
-                        <h6>4100$</h6>
-                        <button><a href="">sepete ekle</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="product">
-                <img src="geyim9.jpg" alt="">
-                <div class="sepeteekle">
-                    <h1>Puma</h1>
-                    <div class="kart">
-                        <h6>4100$</h6>
-                        <button><a href="">sepete ekle</a></button>
-                    </div>
+        <h1>Products</h1>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Quasi nostrum asperiores maxime aperiam, ex a voluptatem praesentium totam ipsam dolores non cumque nesciunt
+            voluptatibus aliquid modi quia fugiat, nobis magnam officiis quidem nihil dolor laboriosam?
+            Est reiciendis beatae quo blanditiis!
+        </h3>
+    </div>
+    <div class="mehsullar">
+        <div class="product">
+            <div class="header_img">
+                <i class="fa-regular fa-heart"></i>
+                <a href="https://istikbal.com.az/product/2-yataq-otagi/gusto-4/">
+                    <img src="https://istikbal.com.az/site/wp-content/uploads/2020/09/gusto-yatak-odasi-takimi-17.jpg" alt="">
+                </a>
 
-                </div>
-
+            </div>
+            <a>Cross yataq dəsti</a>
+            <div class="buy">
+                <h2>4000$</h2>
+                <button>
+                    <h1>Buy</h1>
+                </button>
             </div>
         </div>
+        <div class="product">
+            <div class="header_img">
+                <i class="fa-regular fa-heart"></i>
+                <a href="https://istikbal.com.az/product/2-yataq-otagi/gusto-4/">
+                    <img src="https://istikbal.com.az/site/wp-content/uploads/2020/09/gusto-yatak-odasi-takimi-17.jpg"
+                        alt="">
+                </a>
+
+            </div>
+            <a>Cross yataq dəsti</a>
+            <div class="buy">
+                <h2>4000$</h2>
+                <button>
+                    <h1>Buy</h1>
+                </button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="header_img">
+                <i class="fa-regular fa-heart"></i>
+                <a href="https://istikbal.com.az/product/2-yataq-otagi/gusto-4/">
+                    <img src="https://istikbal.com.az/site/wp-content/uploads/2020/09/gusto-yatak-odasi-takimi-17.jpg"
+                        alt="">
+                </a>
+
+            </div>
+            <a>Cross yataq dəsti</a>
+            <div class="buy">
+                <h2>4000$</h2>
+                <button>
+                    <h1>Buy</h1>
+                </button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="header_img">
+                <i class="fa-regular fa-heart"></i>
+                <a href="https://istikbal.com.az/product/2-yataq-otagi/gusto-4/">
+                    <img src="https://istikbal.com.az/site/wp-content/uploads/2020/09/gusto-yatak-odasi-takimi-17.jpg"
+                        alt="">
+                </a>
+
+            </div>
+            <a>Cross yataq dəsti</a>
+            <div class="buy">
+                <h2>4000$</h2>
+                <button>
+                    <h1>Buy</h1>
+                </button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="header_img">
+                <i class="fa-regular fa-heart"></i>
+                <a href="https://istikbal.com.az/product/2-yataq-otagi/gusto-4/">
+                    <img src="https://istikbal.com.az/site/wp-content/uploads/2020/09/gusto-yatak-odasi-takimi-17.jpg"
+                        alt="">
+                </a>
+
+            </div>
+            <a>Cross yataq dəsti</a>
+            <div class="buy">
+                <h2>4000$</h2>
+                <button>
+                    <h1>Buy</h1>
+                </button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="header_img">
+                <i class="fa-regular fa-heart"></i>
+                <a href="https://istikbal.com.az/product/2-yataq-otagi/gusto-4/">
+                    <img src="https://istikbal.com.az/site/wp-content/uploads/2020/09/gusto-yatak-odasi-takimi-17.jpg"
+                        alt="">
+                </a>
+
+            </div>
+            <a>Cross yataq dəsti</a>
+            <div class="buy">
+                <h2>4000$</h2>
+                <button>
+                    <h1>Buy</h1>
+                </button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="header_img">
+                <i class="fa-regular fa-heart"></i>
+                <a href="https://istikbal.com.az/product/2-yataq-otagi/gusto-4/">
+                    <img src="https://istikbal.com.az/site/wp-content/uploads/2020/09/gusto-yatak-odasi-takimi-17.jpg"
+                        alt="">
+                </a>
+
+            </div>
+            <a>Cross yataq dəsti</a>
+            <div class="buy">
+                <h2>4000$</h2>
+                <button>
+                    <h1>Buy</h1>
+                </button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="header_img">
+                <i class="fa-regular fa-heart"></i>
+                <a href="https://istikbal.com.az/product/2-yataq-otagi/gusto-4/">
+                    <img src="https://istikbal.com.az/site/wp-content/uploads/2020/09/gusto-yatak-odasi-takimi-17.jpg"
+                        alt="">
+                </a>
+
+            </div>
+            <a>Cross yataq dəsti</a>
+            <div class="buy">
+                <h2>4000$</h2>
+                <button>
+                    <h1>Buy</h1>
+                </button>
+            </div>
+        </div>
+    </div>
+    <section class="production">
+        <div class="support">
+            <h1>AVROPA <br>İSTEHSALINA DƏSTƏK</h1>
+            <h2>Məhsullarımız Yüksək Keyfiyyətli Avropa Parçasından Hazırlanır və
+                AVROPADA KÜÇÜK Qrup CAFTSPEOPLE tərəfindən tikilir.</h2>
+        </div>
+    </section>
+    <div class="about">
+        <div class="metn">
+            <h1>About</h1>
+            <h2>Mebel veb saytı müştərilərə mebel məhsullarının satışı üzrə ixtisaslaşmış
+                onlayn platformadır. Bu veb-saytlar müxtəlif müştərilərinehtiyaclarına cavab verən
+                geniş çeşiddə mebel əşyaları təklif edir. Mebel veb saytları müştərilərə kərpic və harç
+                mağazasına fiziki olaraq baş çəkmədən evlərinin rahatlığında məhsullara baxmaq,
+                seçmək və almaq imkanı verir. Mebel veb saytı adətən müştərilərə axtardıqları məhsulları asanlıqla
+                naviqasiya etməyə və tapmağa imkan verən istifadəçi dostu interfeysə
+                malikdir. Veb sayt mebel növü,otaq,üslub və ya materiala görə təşkil edilə bilər. Müştərilərə məlumatlı
+                satın alma qərarları verməyə kömək etmək üçün hər bir məhsul adətən ətraflı təsvirlər,
+                spesifikasiyalar və çoxsaylı yüksək keyfiyyətli şəkillərlə müşayiət olunur.
+            </h2>
+        </div>
+        <div class="metn_image">
+            <i class="fa-solid fa-chevron-right"></i>
+            <i class="fa-solid fa-chevron-left"></i>
+            <a
+                href="https://www.google.com/search?sca_esv=8031294fadf62b25&rlz=1C1SQJL_trAZ913AZ915&sxsrf=ACQVn0_fDoj1hF_Lalv_unAEIcfuYFR4hg:1710123996424&q=qonaq+ota%C4%9F%C4%B1&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjSndCqlOuEAxXAA9sEHWRoDoUQ0pQJegQIDBAB&biw=1366&bih=641&dpr=1#imgrc=nze3nmhyCJlJQM">
+                <img src="https://unimall.az/images/detailed/351/qonaq.jpg">
+            </a>
+        </div>
+
+    </div>
 
 </body>
 
