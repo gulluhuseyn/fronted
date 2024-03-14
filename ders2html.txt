@@ -4,73 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="ders10.css" />
+    <link rel="stylesheet" href="ders11.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
-      <div class="navbar">
-        <div class="logo">
-          <img src="media/pngegg.png" alt="" />
-        </div>
-        <div class="link">
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Region</a></li>
-          </ul>
+      <div class="container">
+        <div class="header_image">
+          <img
+            src="https://preview.colorlib.com/theme/tralive/assets/img/hero/car.png.webp"
+            alt=""
+          />
         </div>
       </div>
     </header>
     <section>
-      <div class="data">
-        <div class="text">
-          <h1>UFO</h1>
-          <h2>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
-            eligendi eos a inventore deleniti atque hic corrupti consequuntur
-            delectus optio itaque illo, pariatur mollitia iusto porro
-            perferendis sunt aliquam magnam reiciendis. Eius voluptates
-            adipisci, placeat necessitatibus dolorum numquam sint mollitia!
-          </h2>
-        </div>
-        <button><a href="">Explore</a></button>
+      <div class="text">
+        <h1>Upcoming Events</h1>
       </div>
-      <div class="kart_about">
-        <div class="kart">
-          <div id="kart_a">
-            <h1>Lorem ipsum</h1>
-            <h2>
-              dolor sit amet elit. Amet perferendis,unde? Rei modi expedita
-              quaslaudantium nihil delectus!
-            </h2>
+      <div class="card_about">
+        <div class="icon">
+          <i id="left" class="fa-solid fa-chevron-left"></i>
+        </div>
+        <div class="card">
+          <img
+            src="https://cdn1.img.sputniknews.com.tr/img/103794/67/1037946794_869:0:2687:2000_1920x0_80_0_0_23e08840bab652749512139cfbd8594a.jpg"
+            alt=""
+          />
+          <div class="card_text">
+            <h2>Finlande</h2>
+            <h3>1200$</h3>
           </div>
         </div>
-        <div class="kart">
-          <div id="kart_b">
-            <h1>Lorem ipsum</h1>
-            <h2>
-              dolor sit amet elit. Amet perferendis,unde? Rei modi expedita
-              quaslaudantium nihil delectus!
-            </h2>
+        <div class="card">
+          <img
+            src="https://cdn1.img.sputniknews.com.tr/img/103794/67/1037946794_869:0:2687:2000_1920x0_80_0_0_23e08840bab652749512139cfbd8594a.jpg"
+            alt=""
+          />
+          <div class="card_text">
+            <h2>Finlande</h2>
+            <h3>1200$</h3>
           </div>
         </div>
-        <div class="kart">
-          <div id="kart_c">
-            <h1>Lorem ipsum</h1>
-            <h2>
-              dolor sit amet elit. Amet perferendis,unde? Rei modi expedita
-              quaslaudantium nihil delectus!
-            </h2>
+        <div class="card">
+          <img
+            src="https://cdn1.img.sputniknews.com.tr/img/103794/67/1037946794_869:0:2687:2000_1920x0_80_0_0_23e08840bab652749512139cfbd8594a.jpg"
+            alt=""
+          />
+          <div class="card_text">
+            <h2>Finlande</h2>
+            <h3>1200$</h3>
           </div>
         </div>
-        <div class="kart">
-          <div id="kart_d">
-            <h1>Lorem ipsum</h1>
-            <h2>
-              dolor sit amet elit. Amet perferendis,unde? Rei modi expedita
-              quaslaudantium nihil delectus!
-            </h2>
-          </div>
+        <div class="icon">
+          <i id="right" class="fa-solid fa-chevron-right"></i>
         </div>
       </div>
     </section>

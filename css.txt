@@ -1,143 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Slackside+One&display=swap');
 
-* {    
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
     text-decoration: none;
     list-style: none;
 }
-body{
-    background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url("https://images.unsplash.com/photo-1656608138197-2aea23cc3564?q=80&w=1977&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    width: 100%;
-    height: 100vh;
+.container{
+    width: 1440px;
+    max-width: 90%;
+    margin: 0 auto;    
+}
+.header_image{
+    background-image: url("https://preview.colorlib.com/theme/tralive/assets/img/hero/h1_hero1.png.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.link{
+    width: 100%;
+    height: 650px;
     position: relative;
 }
-.link a{
-    font-family: "Slackside One", cursive; 
-    font-size: 25px;
-    color: aliceblue;
+.header_image img{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    animation: car_move 4s linear infinite alternate;
 }
-.logo img{
-    width: 50px;
-    height: 60px;
-    margin: 30px;
-    padding-top: 10px;
-    padding-left: 10px;
-}
-.logo:hover{
-    transform: rotateY(360deg);
-    transition: 2s;
-    box-shadow: rgb(87, 87, 238);
-}
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.link ul{
-    display: flex;
-    gap: 50px;
+@keyframes car_move{
+    from{
+        left: 20%;
+        transform: translateX(20px);
+    }
+    to{
+        left: 40%;
+        transform: translateX(-20px);
+    }
 }
 section{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.data{
-    width: 80%;
-    height: auto; 
-}
-.text{
-    font-family: "Slackside One", cursive;
-    color: aliceblue;
+    margin: 60px;
 }
 .text h1{
+    font-family: "Slackside One", cursive; 
     font-size: 60px;
-}
-.text h2{
-    font-size: 30px;
-}
-button{
-    background-color: rgba(12, 16, 223, 0.836);
-    border-radius: 15%;
-}
-.data a{
-    color: aliceblue;
-    font-size: 15px;
-    margin: 20px;
-}
-
-.kart_about{
-    color: aliceblue;
-    display: flex;
-    gap: 60px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.kart_about :hover{
-    transform: scaleX(1);
-}
-.kart {
-    position: relative;   
-}
-.kart_about::after{
-    transform: scale(1);
-}
-
-#kart_a{
-    width: 150px;
-    height: 200px;
-    background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url("https://images.unsplash.com/photo-1598482327649-e8831e1505be?q=80&w=2042&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10%;
-}
-#kart_b{
-    width: 150px;
-    height: 200px;
-    background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url("https://images.unsplash.com/photo-1582236829590-f8cb7de75229?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10%;
-}
-#kart_c{
-    width: 150px;
-    height: 200px;
-    background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url("https://images.unsplash.com/photo-1607335614551-3062bf90f30e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10%;
-}
-#kart_d{
-    width: 150px;
-    height: 200px;
-    background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url("https://images.unsplash.com/photo-1607335614785-e1436e859ebf?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10%;
-}
-.kart h1{
-    font-family: "Slackside One", cursive;
-    font-size: 20px;
-    position:absolute;
-    bottom: 30%;
-    right: 30%;
     text-align: center;
 }
-.kart h2{
-    font-size: 10px;
-    position:absolute;
-    bottom: 5%;
-    right: 5%;
+.card_about{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    width: 350px;
+    height: 300px;
+    border: 1px solid rgb(202, 202, 202);
+}
+.card_about :hover{
+    border: 1px solid black;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+}
+.card_text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon i{
+    border: 1px solid rgb(238, 233, 233);
+    background-color: rgb(199, 240, 226);
 }
 
+@media (max-width:425){
+    .header_image{
+        width: 50%;
+    }
+}
