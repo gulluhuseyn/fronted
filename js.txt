@@ -1,0 +1,28 @@
+// 1.İstifadəçinin daxil etdiyi adın neçə simvoldan ibarət olduğunu tapın.
+// let name = prompt("Adınızı daxil edin:")
+// console.log(name.length);
+
+// 2.İstifadəçinin daxil etdiyi 1 ci sözdə daxil etdiyi 2 ci simvol varmı ?.
+// let word = prompt("Sözü daxil edin: ")
+// let symbol = prompt("Simvol daxil edin: ")
+// console.log(word.includes(symbol));
+
+// 3.İstifadəçinin daxil etdiyi 1 ci söz daxil etdiyi 2 ci simvolla başlayırmı ?.
+// let word = prompt("Sözü daxil edin: ")
+// let symbol = prompt("Simvol daxil edin: ")
+// console.log(word.startsWith(symbol));
+
+// 4.İstifadəçinin daxil etdiyi 1 ci söz daxil etdiyi 2 ci simvolla bitirmi ?.
+// let word = prompt("Sözü daxil edin: ")
+// let symbol = prompt("Simvol daxil edin: ")
+// console.log(word.endsWith(symbol));
+
+// 5.İstifadəçinin daxil etdiyi 1 ci sözdə daxil etdiyi 2 ci simvolun index`ini tapın.
+// let word = prompt("Sözü daxil edin: ")
+// let symbol = prompt("Simvol daxil edin: ")
+// console.log(word.indexOf(symbol));
+
+// 6.İstifadəçinin daxil etdiyi sözün böyük hərf olub olmadığını tapın.
+// let word = prompt("Sözü daxil edin: ")
+// let next_word = RegExp(word.toUpperCase())
+// console.log(next_word.test(word));
