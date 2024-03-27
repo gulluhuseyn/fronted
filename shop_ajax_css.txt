@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 1440px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+:root {
+    --bg-width:100%;
+    --bg-height:65vh
+}
+.title{
+    width: 100%;
+    background-color: rgba(5, 5, 5, 0.952);
+    padding: 15px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    bottom: 40px;
+    left: 40px;
+    z-index: 10;
+}
+.title img{
+    width: 200px;
+    height: 60px;
+}
+.title button{
+    width: 90px;
+    height: 40px;
+    background-color: #82b440;
+    color: white;
+    box-shadow:  0 2px 0 0 #6f9a37;
+    border: 1px solid #82b440;
+    border-radius: 4px;
+}
+.title button:hover{
+    background-color: #6f9a37;
+    border: 1px solid #6f9a37;
+    cursor: pointer;
+}
+.heading_passage { 
+    background-color: rgb(5, 5, 5);
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shipping h4{
+    margin-left: 80px;
+    color: white;
+}
+.support ul{
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.support a{
+    color: white;
+}
+.support a:hover{
+    color: grey;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown a{
+    padding: 10px;
+}
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 139px;
+  
+}
+.dropdown_content a{
+    display: block;
+    color: grey;
+    padding: 20px 10px;
+}
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+.dropdown_content a:hover{
+    color: white;
+}
+.navbar_pieces{
+    margin: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+.navbar a{
+    color: rgba(0, 0, 0, 0.918);
+}
+.nav_logo svg{
+    width: 40px;
+    height: 40px;
+}
+.nav_dropdown ul{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 20px;
+}
+.nav_dropdown a:hover{
+    color: grey;
+}
+.big_li{
+    position: relative;
+}
+.big_dropdown{
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: -155px;
+    z-index: 2;
+    width: max-content;
+    
+    background-color: rgb(255, 255, 255);
+}
+.big_dropdown_content{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: baseline;
+    gap: 30px;
+}
+.big_li:hover .big_dropdown{
+    display: block !important;
+
+}
+.downdrop_link {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap: 15px;
+}
+.nav_icons ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.sidebar{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    z-index: 10;
+}
+.background{
+    width: var(--bg-width);
+    height: var(--bg-width);
+    background-image: url("https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/07/fabio-alves-HNaC2lbnK_0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap: 20px;
+}
+.background_text{
+    padding: 120px;
+}
+.background_text h3{
+    color: white;
+    font-size: 10px;
+}
+.background_text h1{
+    color: white;
+    font-size: 35px;
+}
+.background_text button{
+    width: 150px;
+    height: 40px;
+    background: none;
+    color: white;
+    border-color: white;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.background_text button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.sort_filter{
+    margin: 30px ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+.sort{
+    display: inline-block;
+}
+.sort a{
+    padding: 10px;
+    color: black;
+}
+.sort i{
+    font-size: 10px;
+}
+.sort_dropdown{
+    background-color: white;
+    display: none; 
+    position: absolute;
+    z-index: 10;
+    min-width: 100px;
+}
+.sort_dropdown a{
+    display: block;
+    padding: 10px;
+    color: grey;
+}
+.sort:hover .sort_dropdown{
+    display: block;
+}
+.sort a:hover{
+    color: grey;
+}
+.sort_dropdown a:hover{
+    color:black;
+}
+.filter h3{
+    font-size: 15px;
+}
+.filter i{
+    font-size: 10px;
+}
+.sort_products{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+.sort_select {
+    width: 30%;
+    padding: 20px;
+    display: inline-block;
+}
+.categories {
+    display: none;
+    position: absolute;
+}
+.categories p{
+    display: block;
+}
+.sort_select:hover .categories{
+    display: block;
+}
+.products {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.product {
+    position: relative;
+}
+.product_icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    gap: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+.product_icons i{
+    padding: 5px;
+    border: 1 px solid white;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.product_image img{
+    width: 120px;
+    height: 150px;
+}
+.product_text{
+    text-align: center;
+}
+.product_text a{
+    color: black;
+}
+.product_text a:hover{
+    color: red;
+}
+.product_text img{
+    width: 80px;
+    height: 36px;
+}
+.page_passage{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.page_passage a{
+    color: black;
+}
+.page_passage a:hover{
+    color: red;
+}
+.page_passage h4{
+    padding: 15px;
+    border: 1 px solid rgb(228, 225, 225);
+    border-radius: 50%;
+    background-color: rgb(235, 233, 233);
+}
+.footer{
+    padding: 30px;
+    background-color: rgba(5, 5, 5, 0.952);
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+.footer h3,h4,a{
+    color: rgb(247, 245, 245);
+}
+.footer_form{
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+.footer_passage ul {
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+}
+.footer_content{
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+.footer_content a:hover{
+    color: red;
+}
+.footer_logos{
+    padding: 20px;
+    background-color: rgba(5, 5, 5, 0.952);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_logos h5,a{
+    color: rgb(247, 245, 245);
+}
+.footer_web{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.footer_web a:hover{
+    color: red;
+}
