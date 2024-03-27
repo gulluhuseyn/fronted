@@ -1,0 +1,71 @@
+// 1. Daxil olunan ədədin sadə yoxsa mürəkkəb olduğunu tapın.
+// let a = +prompt("Ədədi daxil edin: ")
+// var sayi = 0
+// for (i = 1;i <= a; i++){
+//     if(a % i === 0){
+//         sayi++;
+//     }
+// }
+// if(sayi > 2){
+//     console.log(`${a} mürəkkəb ədəddir`);
+// }else if(sayi === 1){
+//     console.log(`${a} nə sadə nə mürəkkəb ədəddir`);
+// }else{
+//     console.log(`${a} sadə ədəddir`);
+// }
+
+// 2. Daxil olunan ədədin mükəmməl olub olmadığını tapın.
+// let a = +prompt("Ədədi daxil edin: ")
+// let sub = 0
+// for (i = 1;i < a;i++){
+//     if (a % i === 0) {
+//         sub += i;
+//     }
+// }
+// if (sub === a){
+//     console.log(`${a} mükəmməl ədəddir`);
+// }else {
+//     console.log(`${a} mükəmməl ədəd deyil`);
+// }
+
+// 3. Daxil olunan 2 ədəd arasındakı mükəmməl ədədləri göstərin.
+// let a = +prompt("Birinci ədədi daxil edin: ")
+// let b = +prompt("İkinci ədədi daxil edin: ")
+// let c = a
+// for (c ; c <= b;c++){
+//     let sub = 0
+//     for (i = 1;i < c;i++){
+//         if (c % i === 0) {
+//             sub += i;
+//         }
+//     }
+// if (sub === c){
+//    console.log(c);    
+// }
+// }
+
+// 4. Daxil olunan 2 ədəd arasındakı sadə ədədləri göstərin.
+// let a = +prompt("Birinci ədədi daxil edin: ")
+// let b = +prompt("İkinci ədədi daxil edin: ")
+// let c = a
+// for (c ; c <= b;c++){
+//     var sayi = 0
+//     for (i = 1;i <= c; i++){
+//         if(c % i === 0){
+//             sayi++;
+//         }
+//     }
+// if(sayi === 2){
+//     console.log(c);
+// }
+// }
+
+// 5. Daxil olunan 2 ədəd arasındakı sonu 7 ilə bitən ədədləri göstərin.
+// let a = +prompt("Birinci ədədi daxil edin: ")
+// let b = +prompt("İkinci ədədi daxil edin: ")
+// let c = a
+// for (c ; c <= b;c++){
+//     if(c % 10 === 7){
+//         console.log(c);        
+//     }
+// }
