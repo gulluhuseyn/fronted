@@ -1,0 +1,74 @@
+// 1. Array icinde en boyuk ededi tapin:
+// let numbers = [1, 3, 5, 7, 9, 2, 8, 6, 4, 0];
+// const numbers_sort = numbers.sort((a, b) => a - b);
+// console.log(numbers.at(-1));
+
+// 2. Array icinde sade ededleri tap:
+// let numbers = [1, 3, 5, 7, 9, 2, 8, 6, 4, 13, 41, 44];
+// let sayi=0
+// for (i = 0;i < numbers.length;i++){
+//     for(j = 1;j < numberd[i];j++){
+//         if (numbers[i]%j ==0){
+//             sayi++
+//         }
+//     }if (sayi === 2){
+//         console.log(numbers[i]);
+//     }
+// }
+
+// 3.Arrayda uzunlugu 7 olan sozleri ekrana cixardin:
+// let data = [
+//   "Salam",
+//   "Dünyalı",
+//   "JavaScript",
+//   "Programlaşdırma",
+//   "Kod",
+//   "Frontend",
+//   "Backend",
+// ];
+// const data_sort = data.filter((x) => x.length === 7 );
+// console.log(data_sort);
+
+//4.Istifadeciden kilosunu ve boyunu isteyin. Daha sonra onun Bədən kütlə indeksini tapın.(kilo / boy ** 2). Tapilan bmi deyerine gore usere asagidaki sekilde mesaj verin:
+// 18-dən aşağı nəticələr: İdeal çəkidən aşağı
+// 18 ilə 25 arasında nəticələr: İdeal çəki
+// 25 ilə 30 arasında nəticələr: İdeal çəkidən yuxarı
+// 30 ilə 40 arasında nəticələr: Artıq çəki (obez)
+// 40-dən yuxarı nəticələr: Artıq çəki (morbid dərəcədə piylənmə)
+// let kilo = prompt("kilonuzu daxil edin:")
+// let boy = prompt("boyunuzu daxil edin:")
+// let bmi = kilo / boy ** 2;
+// if (bmi < 18 ){
+//     console.log("İdeal çəkidən aşağı");
+// }else if(bmi > 18 && bmi <= 25){
+//     console.log("kilonuzu daxil edin:");
+// }else if (bmi > 25 && bmi <= 30){
+//     console.log("İdeal çəkidən yuxarı");
+// }else if(bmi > 30 && bmi <= 40){
+//     console.log("Artıq çəki (obez)");
+// }else if(bmi > 40){
+//     console.log("Artıq çəki (morbid dərəcədə piylənmə)");
+// }
+
+//5. Userin daxil etdiyi qiymetin (Ela (100-90), Yaxsi(90-75), Orta(75-55), , Pis(55-35), Kafi(35-0)) oldugunu yoxlayin:
+// let point = +prompt("Qiymətinizi daxil edin (0 - 100):");
+// if (point > 0 && point <= 35){
+//     console.log("kafi");
+// }else if (point > 35 && point <= 55 ){
+//     console.log("pis");
+// }else if (point > 55 && point <= 75){
+//     console.log("orta");
+// }else if (point > 75 && point <= 90){
+//     console.log("yaxşı");
+// }else if (point > 90 && point <= 100){
+//     console.log("ela");
+// }
+
+//6.Ucbucagin 2 terefini daxil edin. Hipetonuzu hesablayin (Arrow function):
+// let a= prompt("ucbucagin birinci terefi: ")
+// let b = prompt("ucbucagin ikinci terefi: ")
+// const hesabla = (a,b) => {
+//     let c = (a**2+b**2)**0.5;
+//     return c;
+// }
+// console.log(hesabla(a,b));
