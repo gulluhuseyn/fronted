@@ -1,0 +1,120 @@
+// 1. Obyekt yaradin.
+let personnel = {
+  name: "Gullu",
+  surname: "Huseynova",
+  father_name: "Elshan",
+  age: 22,
+  pet: ["cat", "dog"],
+};
+// console.log(personnel);
+
+// 2. Array icinde coxlu obyektler yaradin.
+let personnels = [
+  {
+    name: "Gullu",
+    surname: "Huseynova",
+    father_name: "Elshan",
+    age: 22,
+    pet: ["cat", "dog"],
+  },
+  {
+    name: "Nahiba",
+    surname: "Asgerova",
+    father_name: "Elshan",
+    age: 22,
+    pet: "horse",
+  },
+  {
+    name: "Nuray",
+    surname: "Aliyeva",
+    father_name: "Malik",
+    age: 22,
+    pet: "cat",
+  },
+  {
+    name: "Nurgul",
+    surname: "Huseynova",
+    father_name: "Xaliq",
+    age: 22,
+    pet: "cat",
+  },
+];
+// console.log(personnels);
+
+// 3. Telebeler obyektinde bir nece telebe elave edin. Hobbileri, xususiyyetleri kimi icerisindede deyerleri qeyd edin.
+let students_ = [
+  {
+    name: "Gullu",
+    surname: "Huseynova",
+    father_name: "Elshan",
+    hobbies: ["lego", "music", "voleyball"],
+    pet: "cat",
+  },
+  {
+    name: "Nahiba",
+    surname: "Asgerova",
+    father_name: "Elshan",
+    hobbies: "kitab oxumaq",
+    pet: "horse",
+  },
+];
+
+students_.push(
+  {
+    name: "Nuray",
+    surname: "Aliyeva",
+    father_name: "Malik",
+    hobbies: ["voleyball", "music"],
+    pet: "cat",
+  },
+  {
+    name: "Nurgul",
+    surname: "Huseynova",
+    father_name: "Xaliq",
+    hobbies: "voleyball",
+    pet: "cat",
+  },
+  {
+    name: "Sakina",
+    surname: "Huseynova",
+    father_name: "Elshan",
+    hobbies: "kitab oxumaq",
+    pet: "turtle",
+  }
+);
+// console.log(students_);
+
+// 4. Students arrayinin qiymet ortalamasini cixardin. (Butun telebelerin qiymetlerini alib sayini bolun.)
+let students = [
+  {
+    name: "Gullu",
+    surname: "Huseynova",
+    mark: 90,
+  },
+  {
+    name: "Nahiba",
+    surname: "Asgerova",
+    mark: 85,
+  },
+  {
+    name: "Nuray",
+    surname: "Aliyeva",
+    mark: 95,
+  },
+  {
+    name: "Nurgul",
+    surname: "Huseynova",
+    mark: 80,
+  },
+];
+// let cem = 0;
+// students.map((student) => {
+//   cem += student.mark;
+// });
+// console.log(cem/students.length);
+// 5. Qiymeti 90-dan az olan telebeleri Ad ve Soyadi ile birlikde ekrana cixardib onlara xeberdarliq edin.
+// students.map((student)=>{
+//   if (student.mark < 90){
+//     console.log(`${student.name} ${student.surname} sizin balınız 90-dan aşağıdır.`);
+//   }
+// });
