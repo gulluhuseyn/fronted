@@ -1,0 +1,67 @@
+// 1. Her defe ferqli rengde ekrana cixmali (console.log(`${gun} gun ${saat} saat ${deqiqe} deqiqe ${saniye} saniye`);)
+// let birthday = new Date("03-28-2024");
+// setInterval(() => {
+//   let color = Math.floor(Math.random()*1000000);
+//   let now = new Date();
+//   let between = now - birthday;
+//   let gun = Math.trunc(between / (1000 * 60 * 60 * 24));
+//   let saat = Math.trunc((between / (1000 * 60 * 60)) % 24);
+//   let deqiqe = Math.trunc((between / (1000 * 60)) % 60);
+//   let saniye = Math.trunc((between / 1000) % 60);
+//   console.clear();
+//   console.log(`%c${gun} gun ${saat} saat ${deqiqe} deqiqe ${saniye} saniye`,`color:#${color};font-size:30px;`);
+// }, 1000);
+
+// 2. Evde yazdiginiz students datasinda searching yazmaq. Prompt-da telebenin adini yazacam eger ele bir telebe varsa mene onu qaytarmalidir.
+let students = [
+  {
+    id: 1,
+    name: "Gullu",
+    surname: "Huseynova",
+    mark: 90,
+  },
+  {
+    id: 2,
+    name: "Nahiba",
+    surname: "Asgerova",
+    mark: 85,
+  },
+  {
+    id: 3,
+    name: "Nuray",
+    surname: "Aliyeva",
+    mark: 95,
+  },
+  {
+    id: 4,
+    name: "Nurgul",
+    surname: "Huseynova",
+    mark: 80,
+  },
+];
+// let student_name = prompt("Telebenin adini daxil edin: ");
+// let cumle = [];
+// students
+//   .filter((student) => student_name === student.name)
+//   .map((a) => {
+//     cumle.push(`${a.name} ${a.surname}`);
+//   });
+// alert(cumle);
+
+// 3. Prompt ile daxil olunan her soz asagidaki kimi console-da cixmalidir:
+//Ornek: hello
+//h
+//he
+//hel
+//hell
+//hello
+//hell
+//hel
+//he
+//h
+// let word = prompt("Sozu daxil edin: ");
+// for (i = 0; i < word.length; i++) {
+//   console.log(word.slice(0, i + 1));
+// }
+
+// 4. toLocaleDateString(); ->arashdir
