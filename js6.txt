@@ -1,0 +1,18 @@
+const options = {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ZWFkYWUzZjNjYmRkYzQzMGRmNWI0MDFmNjIxNzM2OCIsInN1YiI6IjY2MGU0YjU0ZGE5ZWYyMDE3ZDU4ZWVkOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.l0JpxpzgGqKSCr6IhY5aXxdbbBLDaEAatfHDyEV15h8",
+  },
+};
+
+fetch(
+  "https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1",
+  options
+)
+  .then((response) => response.json())
+  .then((data) => {
+    data.results.map((header) => console.log(`${header.original_title}`));
+  })
+  .catch((err) => console.error(err));
