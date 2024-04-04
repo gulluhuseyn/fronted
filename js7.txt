@@ -1,0 +1,17 @@
+console.log(document);
+let count = 1;
+const btn = document.getElementById("btn");
+let direction = true;
+btn.addEventListener("click", () => {
+  if (count === 10) {
+    direction = false;
+  }
+  if (count === 1){
+    direction = true;
+  }
+  if (direction) {
+    btn.textContent = `Click me ${count++}`;
+  } else {
+    btn.textContent = `Click me ${count--}`;
+  }
+});
