@@ -15,6 +15,23 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+button{
+    color: black;
+    font-size: 30px;
+}
+#left{
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 70%;
+}
+#right{
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    right: 70%;
 }
 img{
     width: 500px;
