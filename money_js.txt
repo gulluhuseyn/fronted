@@ -1,0 +1,17 @@
+money = [500, 200, 100, 50, 20, 10, 5, 1];
+money_images = ["500.jpg","200.jpg","100.jpg","50.jpg","20.jpg","10.jpg","5.jpg","1.jpg"]
+const money_cls = document.querySelector(".money_cls");
+const search = document.getElementById("moneyinput");
+const btn = document.getElementById("btn");
+const ul = document.querySelector(".ul");
+btn.addEventListener("click", () => {
+  const input = parseInt(search.value);
+  const money_filter = money.filter((val) => input === val);
+  if (money_filter.length > 0) {
+    money_filter.map((val) => {
+      const li = document.createElement("li");
+      li.textContent = val;
+      ul.append(li);
+    });
+  }
+});
