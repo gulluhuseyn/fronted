@@ -1,0 +1,85 @@
+const addBtn = document.querySelector(".addBtn");
+const tbody = document.querySelector("tbody");
+let allow = true;
+
+const editData = () => {};
+const removeData = (e) => {
+  e.target.textContent = "Sil";
+  e.target.classList.remove("cancelBtn");
+  e.target.classList.add("removeBtn");
+  const row = e.target.closest('tr'); 
+  row.remove(); 
+  orderRow(); 
+  allow = true;
+};
+const orderRow = () => {
+  const rows = [...document.querySelectorAll("tbody tr")];
+  rows.map((row, key) => {
+    row.querySelector("td").textContent = key + 1;
+  });
+};
+
+const saveData = (e) => {
+  const inputs = [...document.querySelectorAll("input")];
+  const Empty = inputs.some((input) => input.value === "");
+  if (Empty) {
+    alert("Xaiş edirik bütün xanaları doldurun");
+    return;
+  }
+  inputs.map((input) => {
+    input.parentElement.textContent = input.value;
+  });
+  e.target.textContent = "Düzəliş et";
+  e.target.classList.remove("saveBtn");
+  e.target.classList.add("editBtn");
+  allow = true;
+};
+
+addBtn.addEventListener("click", () => {
+  if (!allow) {
+    alert("Xaiş edirik boş xanaları doldurun");
+    return;
+  }
+
+  allow = false;
+
+  const row = document.createElement("tr");
+
+  const noTd = document.createElement("td");
+
+  const nameTd = document.createElement("td");
+  const nameInput = document.createElement("input");
+  nameInput.setAttribute("type", "text");
+  nameInput.setAttribute("placeholder", "Ad");
+  nameTd.append(nameInput);
+
+  const surnameTd = document.createElement("td");
+  const surnameInput = document.createElement("input");
+  surnameInput.setAttribute("type", "text");
+  surnameInput.setAttribute("placeholder", "Soyad");
+  surnameTd.append(surnameInput);
+
+  const ageTd = document.createElement("td");
+  const ageInput = document.createElement("input");
+  ageInput.setAttribute("type", "number");
+  ageInput.setAttribute("placeholder", "Yaş");
+  ageInput.setAttribute("min", 0);
+  ageTd.append(ageInput);
+
+  const optionsTd = document.createElement("td");
+  const saveBtn = document.createElement("button");
+  saveBtn.classList.add("saveBtn");
+  saveBtn.textContent = "Yadda saxla";
+  saveBtn.addEventListener("click", saveData);
+
+  const cancelBtn = document.createElement("button");
+  cancelBtn.classList.add("cancelBtn");
+  cancelBtn.textContent = "Ləğv et";
+  cancelBtn.addEventListener("click", removeData);
+  optionsTd.append(saveBtn, cancelBtn);
+
+  row.append(noTd, nameTd, surnameTd, ageTd, optionsTd);
+  tbody.append(row);
+
+  orderRow();
+});
