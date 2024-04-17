@@ -1,0 +1,20 @@
+const btn = document.querySelector("#btn");
+const move_btn = document.querySelector(".move_btn");
+let min = 1;
+let max = 4;
+btn.addEventListener("click", () => {
+  setTimeout(() => {
+    const btn_1 = document.createElement("button");
+    btn_1.classList.add("btn_1");
+    move_btn.append(btn_1);
+    let r = Math.floor(Math.random() * 256);
+    let g = Math.floor(Math.random() * 256);
+    let b = Math.floor(Math.random() * 256);
+    let between = Math.floor(Math.random() * (max - min + 1) + min);
+    btn_1.textContent = `message ${between}`;
+    btn_1.style.color = `rgb(${r},${g},${b})`;
+    setTimeout(() => {
+      btn_1.remove();
+    }, 2000);
+  }, 100);
+});

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="moneyconversion.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <p>From</p>
+      <select id = "from_select"></select>
+      <input type = "number" id = "input" placeholder = "Daxil edin" />
+      <button id = "btn">Axtar</button>
+      <p>To</p>
+      <select id = "to_select"></select>
+      <input type = "number" id = "money" placeholder = "nəticə">
+    </form>
+    <script src="moneyconversion.js"></script>
+  </body>
+</html>
