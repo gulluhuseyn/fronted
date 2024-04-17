@@ -5,22 +5,27 @@ const input = document.getElementById("input");
 const money = document.getElementById("money");
 
 const options = { method: "GET", headers: { accept: "application/json" } };
+
 fetch(`https://api.fastforex.io/fetch-all?api_key=512309cfd3-f0d36f00dc-sc0lje`)
   .then((response) => response.json())
-  .then((data) =>
+  .then((data) => {
     Object.keys(data.results).map((key) => {
       const option = document.createElement("option");
-      option.append(key);
+      option.textContent = key;
       from_select.append(option);
+
       const to_option = document.createElement("option");
-      to_option.append(key);
+      to_option.textContent = key;
       to_select.append(to_option);
-      btn.addEventListener("click", (e) => {
-        e.preventDefault();
-        const inpvalue = input.value;
-        money.textContent = inpvalue;
-        // money.textContent = inpvalue / data.results.value;
-      });
-    })
-  )
+    });
+
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      const from_value = from_select.value;
+      const to_value = to_select.value;
+      const conversion_rate = data.results[to_value] / data.results[from_value];
+      const inpvalue = input.value;
+      money.textContent = (inpvalue * conversion_rate).toFixed(2);
+    });
+  })
   .catch((err) => console.error(err));
